@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Outfit:wght@500&family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>NFT preview card component</title>
+    <style>
+      .cube {
+        background-color: hsl(216, 50%, 16%);
+        height: 40%;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 015%;
+
+        border-radius: 15px;
+      }
+      .equal {
+        color: hsl(0, 0%, 100%);
+        margin-left: 50px;
+      }
+      body {
+        font-family: Outfit;
+        background-color: hsl(217, 54%, 11%);
+      }
+      p {
+        color: hsl(215, 51%, 70%);
+        margin-left: 50px;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      .right {
+        color: aqua;
+        margin-left: 10px;
+        margin-right: 50px;
+      }
+      .display {
+        display: flex;
+      }
+      .clock {
+        width: 10px;
+        color: hsl(215, 51%, 70%);
+        gap: 10px;
+        display: flex;
+      }
+      .img {
+        margin-left: 50px;
+        width: 200px;
+        height: 230px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        border-radius: 5px;
+      }
+      .img-2 {
+        width: 30px;
+        height: 40px;
+        border-color: white;
+        margin-left: 025px;
+      }
+      #avatar {
+        color: hsl(215, 51%, 70%);
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      #avatar-2 {
+        color: hsl(0, 0%, 100%);
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .bottom {
+        display: flex;
+      }
+      .clock2 {
+        margin-left: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cube">
+      <div><img src="images\image-equilibrium.jpg" class="img" /></div>
+
+      <div class="equal"><h1>Equilibrium #3429</h1></div>
+      <div>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+      <div class="display">
+        <div class="right">
+          <img src="images\icon-ethereum.svg" /> 0.041 ETH
+        </div>
+        <div class="clock">
+          <img src="images\icon-clock.svg" class="clock2" />3daysleft
+        </div>
+      </div>
+      <hr />
+      <div class="bottom">
+        <img src="images\image-avatar.png" class="img-2" />
+        <div id="avatar">Creation of</div>
+        <div class id="avatar-2">Jules Wyvern</div>
+      </div>
+    </div>
+  </body>
+</html>
